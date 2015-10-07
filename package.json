@@ -1,6 +1,6 @@
 {
   "name": "rising-tide-tap-list",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Returns a list of beers currently on tap at the Rising Tide Brewery",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/tleen/rising-tide-tap-list.git"
   },
   "keywords": [
-    "beer"
+    "beer", "portland", "maine", "rising tide"
   ],
   "author": "Thomas Leen",
   "license": "MIT",
