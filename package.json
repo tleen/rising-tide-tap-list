@@ -1,0 +1,35 @@
+{
+  "name": "rising-tide-tap-list",
+  "version": "0.0.0",
+  "description": "Returns a list of beers currently on tap at the Rising Tide Brewery",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/grunt-cafe-mocha/node_modules/mocha/bin/mocha --ui bdd --reporter spec --require should test/index.js"
+  },
+  "bin": {
+    "rising-tide": "./bin/rising-tide"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tleen/rising-tide-tap-list.git"
+  },
+  "keywords": [
+    "beer"
+  ],
+  "author": "Thomas Leen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tleen/rising-tide-tap-list/issues"
+  },
+  "homepage": "https://github.com/tleen/rising-tide-tap-list#readme",
+  "dependencies": {
+    "cheerio": "0.19.0",
+    "needle": "0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-cafe-mocha": "0.1.13",
+    "grunt-contrib-jshint": "0.11.3",
+    "should": "7.1.0"
+  }
+}
