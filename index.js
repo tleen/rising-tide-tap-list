@@ -11,7 +11,7 @@ module.exports = function(callback){
     if(response.statusCode !== 200) return callback(new Error('Site unavailable'));
     
     var results = [];
-    $.load(response.body)('h2').first().find('a').each(function(i, t){
+    $.load(response.body)('.sqs-row').first().find('.sqs-row').find('a').each(function(i, t){
       results.push($(t).text().toLowerCase().trim());
     });
     results.sort();
