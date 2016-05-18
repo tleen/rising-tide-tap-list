@@ -8,7 +8,6 @@ describe('results', function(){
     this.timeout(5000);
     require('..')(function(err, results){
       (err === null).should.be.true;
-      console.log(results);
       results.should.be.an.Array;
       results.length.should.be.aboveOrEqual(2);
       results[0].should.be.a.String;
