@@ -1,6 +1,6 @@
 {
   "name": "rising-tide-tap-list",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Returns a list of beers currently on tap at the Rising Tide Brewery",
   "main": "index.js",
   "scripts": {
